@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    padding: 20px;
+    margin: 0;
+    background-image: url("backgroungimage.jpeg");
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    font-family: 'Franklin Gothic Medium', sans-serif;      
+}
+
+.nav { 
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav ul {
+    text-align: right;       
+}
+
+.nav ul li{
+    display: inline;
+    padding: 14px 16px;  
+    list-style-type: none;  
+    text-decoration: none; 
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li :hover {
+    background-color: rgb(14, 13, 13);
+}
+/* Jayne el's journey...*/
+header {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -20px;
+}
+/* welcome to my ...*/
+.text { 
+    float: right; 
+    padding: 10px;
+    border: 20px;
+    text-align: right;
+    color: white; 
+    height: 360px;  
+}
+/* footer Styling*/
+footer {
+    clear: both;
+    background-color: black; 
+    text-align: left;  
+    width: 150px;
+    margin-left: 30px;
+    transform: rotate(10deg);
+    
+    
+}
